@@ -43,7 +43,7 @@ define("WEBSITE_FACEBOOK_IMAGE", "");
 
 // DataBase informations
 define("DATABASE_HOST", "localhost");
-define("DATABASE_NAME", "chat");
+define("DATABASE_NAME", "projetchat");
 define("DATABASE_USER", "root");
 define("DATABASE_PASSWORD", "root");
 

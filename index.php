@@ -1,10 +1,15 @@
 <?php
 
+include_once '_functions/functions.php';
 include_once '_config/config.php';
 include_once '_config/db.php';
+include_once 'views/includes/head.php';
 
 if (isset($_GET['page']) AND !empty($_GET['page'])) {
-    $page = trim(strtolower($_GET['page']));
+    if (in_array($_GET['page'].'_controller.php', $allPages)){
+        $page = trim(strtolower($_GET['page']));
+        require_once '_config/db.php';
+    }
 } else {
     $page = 'home';
 }
@@ -20,7 +25,7 @@ if (in_array($page.'_controller.php', $allPages)) {
 
 } else {
     // Retour d'un erreur 404 ! El famosso !
-    echo '<img src="assets/images/404.png" alt="Erreur 404" style="margin=auto">';
+    echo 'Page introuvable';
 }
 
 ?>
