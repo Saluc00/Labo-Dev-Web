@@ -1,4 +1,5 @@
 <footer>
+<<<<<<< HEAD
     <div id="footerHaut">
         <div id="footerLogo">
             <a href="index.php"><img src="../Labo_Dev_Web/assets/images/logo.png"/></a>
@@ -16,5 +17,16 @@
     </div>
     <div id="footerBas">
         <p><em>Copyright © 2019 Lucas Usereau<br>Tous droits réservés.</em></p>
+=======
+    <div>
+        <ul>
+            <li>Footer1</li>
+            <li>Footer2</li>
+            <li>Footer3</li>
+        </ul>
+    </div>
+    <div>
+    <p>Copyright © 2019 Lucas Usereau<br> Tous droits réservés.</p>
+>>>>>>> master
     </div>
 </footer>

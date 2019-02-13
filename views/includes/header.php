@@ -5,6 +5,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav nav-site">
             <ul class="navbar-nav">
+<<<<<<< HEAD
             <li class="nav-item">
                 <a class="nav-link" href="index.php">Accueil</a>
             </li>
@@ -16,9 +17,22 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php?page=connexion">Connection</a>
+=======
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">onglet1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">onglet2</a>
+>>>>>>> master
             </li>
             </ul>
         </div>
     </nav>
+<<<<<<< HEAD
     <?php include_once 'jumbotron.php';?>
+=======
+>>>>>>> master
 </header>

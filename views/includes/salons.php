@@ -1,5 +1,6 @@
 <div id="salons">
     <h2>Ici tous les salons :</h2>
+<<<<<<< HEAD
     <?php
     $req = $db->query('SELECT salon_nom FROM salons');
     $salons = $req->fetchAll();?>
@@ -17,4 +18,9 @@
     <hr>
     <?php ?>
 
+=======
+    <p>Salon1</p>
+    <p>Salon2</p>
+    <p>Salon3</p>
+>>>>>>> master
 </div>
