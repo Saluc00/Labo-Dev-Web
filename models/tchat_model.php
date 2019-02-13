@@ -3,14 +3,13 @@
 class Home {
     
     public $id;
-    public $username;
-    public $message;
+    public $salon;
 
     function __construct($id) {
 
         global $db;
 
-        $reqMessage = $db->prepare('SELECT * FROM message WHERE id = ?');
+        $reqMessage = $db->prepare('SELECT * FROM salon WHERE id = ?');
         $reqMessage-execute([$id]);
         $data = $reqMessage-fetch();
 

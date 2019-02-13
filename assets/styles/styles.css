@@ -1,0 +1,181 @@
+body {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#h2titre {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url('../images/jumb.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 50px 170px 50px;
+}
+
+.jumbotron.jumbotron-fluid {
+    margin-bottom: 0px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#presentation {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 130px 20px 130px 20px;
+    background-color: #f1faee;
+}
+
+#discuter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 130px 20px 130px 20px;
+    background-color: #e63946;
+}
+
+#discGauche {
+    width: 50%;
+    margin: auto;
+    border-right: solid black;
+}
+
+#discDroite {
+    width: 50%;
+    margin: auto;
+}
+
+#partagez {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 130px 20px 130px 20px;
+    background-color: #a8dadc;
+}
+
+#parGauche {
+    width: 50%;
+    margin: auto;
+    border-right: solid black;
+}
+
+#parDroite {
+    width: 50%;
+    margin: auto;
+}
+
+#petitmessage {
+    background-color: #1d3557;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+#salons {
+    background-color: #616161;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#amis {
+    display: block;
+    background-color: #616161;
+    width: 15%;
+    padding: 20px 20px 20px 20px;
+}
+
+#message {
+    width: 65%;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#formMessage {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#formCréa {
+    padding: 50px 0 50px 0;
+    width: 100%;
+}
+
+#formCréa form {
+    width: 50%;
+    margin: auto;
+}
+
+#formConn {
+    padding: 50px 0 50px 0;
+    width: 100%;
+}
+
+#formConn form {
+    width: 50%;
+    margin: auto;
+}
+
+/***********************
+        Footer
+************************/
+
+footer {
+    padding: 30px 0 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ad9c87;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+footer p {
+    color: white;
+}
+
+#footerHaut {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footerLogo {
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    border-right: solid black;
+}
+
+#footerInfo {
+    width: 50%;
+    padding: 20px 50px 20px 50px;
+    margin: auto;
+}
+
+#footerBas {
+    margin: 50px 0 0 0;
+}
+
+#footerBas p {
+    font-size: 12px;
+}
