@@ -16,7 +16,6 @@ ini_set('display_errors', true);
 ini_set('session.cookie_lifetime', false);
 session_start();
 
-
 // --------------------------- //
 //         CONSTANTS           //
 // --------------------------- //
@@ -43,7 +42,7 @@ define("WEBSITE_FACEBOOK_IMAGE", "");
 
 // DataBase informations
 define("DATABASE_HOST", "localhost");
-define("DATABASE_NAME", "chat");
+define("DATABASE_NAME", "projetchat");
 define("DATABASE_USER", "root");
 define("DATABASE_PASSWORD", "root");
 

@@ -1,0 +1,218 @@
+body {
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #f1faee;
+}
+
+.decoLink {
+    text-decoration: none;
+    color: black;
+}
+
+.decoLink:hover {
+    color: #e63946;
+    text-decoration: none;
+}
+
+#h2titre {
+    text-align: center;
+}
+
+#en-cours {
+    color: #e63946;
+}
+
+
+#pseudo {
+    color: black;
+}
+
+.navbar {
+    background-color: #f1faee !important;
+    justify-content: space-between !important;
+}
+
+.jumbotron {
+    background-image: url('../images/jumb.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 50px 170px 50px;
+}
+
+.jumbotron.jumbotron-fluid {
+    margin-bottom: 0px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#presentation {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 130px 20px 130px 20px;
+    background-color: #f1faee;
+}
+
+#discuter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 130px 20px 130px 20px;
+    background-color: #e63946;
+}
+
+#merciDe {
+    text-align:center;
+    color: #e63946;
+    padding: 100px 0 100px 0;
+}
+
+#discGauche {
+    width: 50%;
+    margin: auto;
+    border-right: solid black;
+}
+
+#discDroite {
+    width: 50%;
+    margin: auto;
+}
+
+#partagez {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 130px 20px 130px 20px;
+    background-color: #a8dadc;
+}
+
+#parGauche {
+    width: 50%;
+    margin: auto;
+    border-right: solid black;
+}
+
+#parDroite {
+    width: 50%;
+    margin: auto;
+}
+
+#petitmessage {
+    color: white;
+    font-size: 300px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#salons {
+    background-color: #457b9d;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#amis {
+    display: block;
+    background-color: #a8dadc;
+    width: 15%;
+    padding: 20px 20px 20px 20px;
+}
+
+#message {
+    width: 65%;
+    padding: 20px 20px 20px 20px;
+}
+
+#formMessage {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#formCréa {
+    padding: 50px 0 50px 0;
+    width: 100%;
+}
+
+#formCréa form {
+    width: 50%;
+    margin: auto;
+}
+
+#formConn {
+    padding: 50px 0 50px 0;
+    width: 100%;
+}
+
+#formConn form {
+    width: 50%;
+    margin: auto;
+}
+
+/***********************
+        Footer
+************************/
+
+footer {
+    padding: 30px 0 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d3557;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+footer p {
+    color: white;
+}
+
+footer h3 {
+    color: #e63946;
+}
+
+#footerHaut {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footerLogo {
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    border-right: solid #e63946;
+}
+
+#footerInfo {
+    width: 50%;
+    padding: 20px 50px 20px 50px;
+    margin: auto;
+}
+
+#footerBas {
+    margin: 50px 0 0 0;
+}
+
+#footerBas p {
+    font-size: 12px;
+}
